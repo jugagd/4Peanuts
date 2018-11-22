@@ -144,13 +144,13 @@ body{
     float: none;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #000;
+    color: #ffffff;
     font-size: 1em;
     padding: 1.8em 0.5em;
     position: relative;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav li a.active {
-    color: #ffffff;
+    color: #000;
 }
 .navbar-default .navbar-nav > li > a:before {
     content: '';
@@ -205,7 +205,7 @@ body{
 	color: #333;
     text-align: center;
 }
-.social ul li a i.fa.fa-facebook,.social ul li a i.fa.fa-twitter,.social ul li a i.fa.fa-rss,.social ul li a i.fa.fa-vk{
+.social ul li a i.fa.fa-facebook,.social ul li a i.fa.fa-twitter,.social ul li a i.fa.fa-rss,.social ul li a i.fa.fa-instagram{
     height: 40px;
     width: 40px;
     background: none;
@@ -241,7 +241,7 @@ body{
     line-height: 37px;
 	background: #f26522;
 }
-.social ul li a i.fa.fa-vk:hover{
+.social ul li a i.fa.fa-instagram:hover{
     height: 40px;
     width: 40px;
     line-height: 37px;
@@ -971,7 +971,7 @@ a.pa_italic:focus {
 .team-social-grids ul li a {
     text-align: center;
 }
-.team-social-grids ul li a i.fa.fa-facebook, .team-social-grids ul li a i.fa.fa-twitter, .team-social-grids ul li a i.fa.fa-rss, .team-social-grids ul li a i.fa.fa-vk {
+.team-social-grids ul li a i.fa.fa-facebook, .team-social-grids ul li a i.fa.fa-twitter, .team-social-grids ul li a i.fa.fa-rss, .team-social-grids ul li a i.fa.fa-instagram {
     height: 30px;
     width: 30px;
     border: solid 2px #2f2f2f;
@@ -999,7 +999,7 @@ a.pa_italic:focus {
 	background:#f26522;
 	color: #FFFFFF;
 }
-.team-social-grids ul li a i.fa.fa-vk:hover{
+.team-social-grids ul li a i.fa.fa-instagram:hover{
 	border: solid 2px #45668e;
 	background:#45668e;
 	color: #FFFFFF;
@@ -1178,7 +1178,7 @@ p.address {
 @media(max-width:1080px){
 	.header-middle {
 		width: 43%;
-		margin: .9em 0 0 8em;
+    margin: .9em 0 0 8em;
 	}
 	.header-right {
 		width: 24.5%;
@@ -1557,12 +1557,12 @@ p.address {
 	.w3layouts-text h2 {
 		font-size: 1.5em;
 	}
-	.social ul li a i.fa.fa-facebook, .social ul li a i.fa.fa-twitter, .social ul li a i.fa.fa-rss, .social ul li a i.fa.fa-vk {
+	.social ul li a i.fa.fa-facebook, .social ul li a i.fa.fa-twitter, .social ul li a i.fa.fa-rss, .social ul li a i.fa.fa-instagram {
 		height: 30px;
 		width: 30px;
 		line-height: 27px;
 	}
-	.social ul li a i.fa.fa-facebook:hover,.social ul li a i.fa.fa-twitter:hover,.social ul li a i.fa.fa-rss:hover,.social ul li a i.fa.fa-vk:hover {
+	.social ul li a i.fa.fa-facebook:hover,.social ul li a i.fa.fa-twitter:hover,.social ul li a i.fa.fa-rss:hover,.social ul li a i.fa.fa-instagram:hover {
 		height: 30px;
 		width: 30px;
 		line-height: 27px;
